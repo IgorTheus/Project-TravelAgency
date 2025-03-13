@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 1.5rem;
+}
+
+nav {
+    margin-left: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.list_text {
+    margin-top: 2.2rem;
+}
+
+.llogo {
+    margin-top: 1.8rem;
+}
+
+nav img {
+    width: 32.5px;
+}
+
+.contact_info {
+    background-color: #42f57b;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.text_section1 {
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    color: white;
+}
+
+.beach {
+    opacity: 2;
+}
