@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-top: 1.5rem;
+}
+
+nav {
+    margin-left: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.list_text {
+    margin-top: 2.2rem;
+}
+
+.llogo {
+    margin-top: 1.8rem;
+}
+
+nav img {
+    width: 32.5px;
+}
+
+.contact_info {
+    background-color: #42f57b;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.beach {
+   position: absolute;
+   z-index: -9;
+   height: calc(50vh - 90px);
+}
+
+.text_section1 {
+    font-size: 2.7rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    justify-content: center;
+    height: calc(50vh - 90px);
+}
+
+.sectionOF button {
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: rgb(245, 139, 18);
+    color: white;
+    border: 0;
+    padding: 1.2rem;
+}
+
+.section2 {
+    background-color: rgb(226, 225, 225);
+    width: 100%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.container_item p{
+    margin-left: 0.5rem;
+}
+.chatbox {
+    background-color: rgb(245, 139, 18);
+    display: flex;
+    padding: 2.3rem;
+    margin: 4.5rem;
+}
+
+.planebox {
+    background-color: rgb(33, 155, 226);
+    display: flex;
+    padding: 2.3rem;
+    margin: 4.5rem;
+}
+
+.hotelbox {
+    background-color: rgb(11, 238, 106);
+    display: flex;
+    padding: 2.3rem;
+    margin: 4.5rem;
+}
+
+.sec3text {
+    padding-top: 9rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sec3text h1 {
+    color: rgb(12, 12, 138);
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.sec3text2 {
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sec3text2 h1 {
+    color: rgb(12, 12, 138);
+}
+
+.foot {
+    background-color: rgb(12, 12, 138);
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container_item {
+        width: 80%;
+        justify-content: center;
+    }
+    .foot {
+        margin-top: 2.2rem;
+    }
+}
